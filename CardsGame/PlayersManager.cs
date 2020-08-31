@@ -17,5 +17,10 @@ namespace Fireworks
         {
             AllPlayers.AddRange(players);
         }
+
+        public void MakeAMove()
+        {
+            // Gets Random Option from "GameMoves" and implements it
+        }
     }
 }
