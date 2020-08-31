@@ -23,6 +23,15 @@ namespace CardsGame
             
       
         }
+        public void cardInitializer()
+        {
+            yellowDeckInitializer();
+            redDeckInitializer();
+            whiteDeckInitializer();
+            blueDeckInitializer();
+            greenDeckInitializer();
+              
+        }
         private void yellowDeckInitializer()
         {
             ICard card1 = new YellowCard(1);

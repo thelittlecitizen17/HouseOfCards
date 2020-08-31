@@ -10,14 +10,16 @@ namespace CardsGame
         {
             Random random = new Random();
             int num = random.Next(1, 5);
-            for (int i = 0; i < 5; i++)
-            {
-                player.cardDesk.Add(deckOfCards._blueCards[i]);
-                player.cardDesk.Add(deckOfCards._yellowCards[i]);
-                player.cardDesk.Add(deckOfCards._redCards[i]);
-                player.cardDesk.Add(deckOfCards._greenCards[i]);
-                player.cardDesk.Add(deckOfCards._whiteCards[i]);
-            }
+            player.cardDesk.Add(deckOfCards._blueCards[num]);
+            int i = random.Next(1, 5);
+            player.cardDesk.Add(deckOfCards._yellowCards[i]);
+            int t = random.Next(1, 5);
+            player.cardDesk.Add(deckOfCards._redCards[t]);
+            int f = random.Next(1, 5);
+            player.cardDesk.Add(deckOfCards._greenCards[f]);
+            int l = random.Next(1, 5);
+            player.cardDesk.Add(deckOfCards._whiteCards[l]);
+
         }
     }
 }
