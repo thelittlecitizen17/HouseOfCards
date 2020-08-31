@@ -21,7 +21,6 @@ namespace CardsGame
             _whiteCards = new List<ICard>();
             _redCards = new List<ICard>();
             
-      
         }
         public void cardInitializer()
         {

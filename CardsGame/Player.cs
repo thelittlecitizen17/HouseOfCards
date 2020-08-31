@@ -4,14 +4,14 @@ using System.Text;
 
 namespace CardsGame
 {
-    class Player
+    public class Player
     {
-        public string name { get; set; }
-        public List<ICard> cardDesk { get; set; }
+        public string Name { get; set; }
+        public List<ICard> CardsInHand { get; set; }
         
-        public Player()
+        public Player(List<ICard> cards)
         {
-            cardDesk = new List<ICard>();
+            CardsInHand = cards;
         }
     }
 }

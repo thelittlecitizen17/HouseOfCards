@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CardsGame
 {
-    interface ICard
+    public interface ICard
     {
         string Color { get; set; }
         int Number { get; set; }

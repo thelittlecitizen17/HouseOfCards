@@ -4,7 +4,10 @@ using System.Text;
 
 namespace CardsGame
 {
-    class CardsTable
+    public class GameStatus
     {
+        private List<ICard> _cardsOnTable;
+        
+
     }
 }
